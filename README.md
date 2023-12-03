@@ -1,5 +1,10 @@
 # React-Native-DeepAR
 
+| Application Output                                                                                                 |
+| ------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="https://github.com/Ivy-Walobwa/React-Native-DeepAR/assets/49009293/e62d782a-0dab-4484-abee-736b5f04a866" alt="App output" width="300" height="auto"> |
+
+
 ## Cloning and running the Project
 
 ```bash
@@ -82,24 +87,24 @@ $ bundle exec pod install
 
 | Setting iOS minimum deployment on Xcode                                                                                                  |
 | ------------------------------------------------------------------------------------------------------------------------------- |
-| ![Xcode Setting iOS Version](https://github.com/Ivy-Walobwa/React-Native-DeepAR/assets/49009293/26564ad7-60f8-4715-82ca-2dcf5cd0d0d6) |
+| ![Setting iOS minimum deployment on Xcode](https://github.com/Ivy-Walobwa/React-Native-DeepAR/assets/49009293/26564ad7-60f8-4715-82ca-2dcf5cd0d0d6) |
 
 4. Configure code signing
 
 | Configure code signing on Xcode                                                                                                  |
 | ------------------------------------------------------------------------------------------------------------------------------- |
-| ![Xcode Setting iOS Version](https://github.com/Ivy-Walobwa/React-Native-DeepAR/assets/49009293/8650cbe8-aacd-4573-9dad-82c4527d5ba6) |
+| ![Configure code signing](https://github.com/Ivy-Walobwa/React-Native-DeepAR/assets/49009293/8650cbe8-aacd-4573-9dad-82c4527d5ba6) |
 
 
 5. Add `DeepAR.xcframework` to Build Phases:
    
 | Add DeepAR to Build Phase                                                                                                  |
 | ------------------------------------------------------------------------------------------------------------------------------- |
-| ![Xcode Setting iOS Version](https://github.com/Ivy-Walobwa/React-Native-DeepAR/assets/49009293/b4e7484d-c762-482f-b11e-ca17f62a4f0b) |
+| ![Add DeepAR to Build Phase](https://github.com/Ivy-Walobwa/React-Native-DeepAR/assets/49009293/b4e7484d-c762-482f-b11e-ca17f62a4f0b) |
 
 6. Make sure you are connected to a physical device via USB before running the project and then run the application.
    
 | Run Project                                                                                                |
 | ------------------------------------------------------------------------------------------------------------------------------- |
-| ![Xcode Setting iOS Version](https://github.com/Ivy-Walobwa/React-Native-DeepAR/assets/49009293/3fd7319f-e4a3-42ef-9aaa-1c3f1315b5b2) |
+| ![Run Project](https://github.com/Ivy-Walobwa/React-Native-DeepAR/assets/49009293/3fd7319f-e4a3-42ef-9aaa-1c3f1315b5b2) |
 
