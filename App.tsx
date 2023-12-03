@@ -23,12 +23,9 @@ const App = () => {
   const [permsGranted, setPermsGranted] = useState(false);
   const getPermissions = async () => {
     const cameraPermission = await Camera.requestCameraPermission();
-    const microphonePermission = await Camera.requestMicrophonePermission();
     const isCameraAllowed =
       cameraPermission === CameraPermissionRequestResult.AUTHORIZED;
-    const isMicAllowed =
-      microphonePermission === CameraPermissionRequestResult.AUTHORIZED;
-    if (isCameraAllowed && isMicAllowed) {
+    if (isCameraAllowed) {
       setPermsGranted(true);
     } else {
       Linking.openSettings();
